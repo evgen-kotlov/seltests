@@ -22,6 +22,7 @@ class GoogleSearch(unittest.TestCase):
         time.sleep(2)
         input_field.send_keys(Keys.DOWN)
         input_field.send_keys(Keys.DOWN)
+        input_field.send_keys(Keys.DOWN)
         input_field.send_keys(Keys.ENTER)
 
         time.sleep(2)
